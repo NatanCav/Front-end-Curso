@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula com Formulários</title>
+</head>
+<body>
+    <form>
+        <div>
+        <label for="name">Nome
+            <input type="text" id="name" value="Natan Cavalcante">
+        </label>
+
+        <label for="mail">Email
+            <input type="mail" id="Email" required>
+        </label>
+        </div>
+
+        <div>
+        <label>
+        <input type="radio" id="preco" value="100"> R$100,00
+        </label>
+
+        <label>
+        <input type="radio" id="preco" value="300"> R$300,00
+        </label>
+ 
+        <label>
+        <input type="radio" id="preco" value="600"> R$600,00
+        </label>
+        </div>
+
+        <div>
+        <input type="checkbox" id="variosprecos" value="150">  R$150,00
+        <input type="checkbox" id="variosprecos" value="150">  R$150,00
+        <input type="checkbox" id="variosprecos" value="150">  R$150,00
+        <input type="checkbox" id="variosprecos" value="150">  R$150,00
+        </div>
+
+        <div>
+        <label for="select">Selecione uma cidade <br/>
+            <select id="select">
+                <option value="" selected>Selecione uma cidade</option>
+                <option value="Opção 1">Opção 1</option>
+                <option value="Opção 2">Opção 2</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Digite sua mensagem <br>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            </label>
+        </div>
+        <button>Enviar Formulário</button>
+    </form>
+</body>
+</html>
